@@ -53,3 +53,4 @@ while True:
             pipe.x += 5
         if pipes[0].x > touch_point_x + 150:
             is_touch = False
+
