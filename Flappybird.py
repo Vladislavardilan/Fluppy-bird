@@ -6,6 +6,10 @@ window_size = 1200, 800
 window = display.set_mode(window_size)
 clock = time.Clock()
 
+
+
+
+
 player_rect = Rect(80, 200, 80, 80)
 
 def generate_pipes(count, pipe_width=140, gap=280, min_height=50, max_height=440, distance=650):
@@ -53,4 +57,5 @@ while True:
             pipe.x += 5
         if pipes[0].x > touch_point_x + 150:
             is_touch = False
+
 
